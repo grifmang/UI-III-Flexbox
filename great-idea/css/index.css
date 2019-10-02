@@ -138,7 +138,7 @@ footer {
 
 .triple {
 	display:flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 hr {
@@ -179,3 +179,85 @@ p {
 .center {
 	margin-left: 40px;
 }
+
+.services-header-img {
+	margin-top: 10%;
+}
+
+#services2 {
+	display: flex;
+	flex-direction: column;
+	margin: 40px 0;
+	line-height: 20px;
+}
+
+#serv-header {
+	font-size: x-large;
+}
+
+#flex-grid {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.grid-box {
+	width: 400px;
+	height: 200px;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 20px;
+	background-color: rgba(169, 169, 169, 0.158)
+}
+
+button {
+	width: 100px;
+	margin-left: 15px;
+}
+
+#last {
+	display: flex;
+}
+
+.last-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.last-section-text {
+	width: 80%;
+	line-height: 20px;
+}
+
+#list-something {
+	list-style-type: square;
+	justify-content: flex-start;
+	list-style-position: inside;
+	line-height: 30px;
+
+}
+
+footer {
+	margin: 80px 0 0 0;
+}
+
+#h-line {
+	height: 4px;
+	background-color: black;
+}
+
+.header-margin {
+	margin-left: 15px;
+}
+
+.text-margin {
+	margin: 0 15px;
+}
+
+.threeColumns {
+	width: 29%;
+}
+
